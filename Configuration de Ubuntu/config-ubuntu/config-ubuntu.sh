@@ -2,7 +2,7 @@
 
 username=$(zenity --entry --title="Nom d'utilisateur" --text="Entrez votre nom d'utilisateur (en minuscule)")
 FLATPAKAPP="com.visualstudio.code org.gimp.GIMP org.flameshot.Flameshot org.keepassxc.KeePassXC org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter"
-app_to_install="screen htop nmon glances neofetch screenfetch inxi nvtop ncdu cronie sl nyancat nwipe ecryptfs-utils nmap iftop traceroute telnet borgbackup soundconverter virtualbox cool-retro-term gparted"
+ADDAPP="screen htop nmon glances neofetch screenfetch inxi nvtop ncdu cronie sl nyancat nwipe ecryptfs-utils nmap iftop traceroute telnet borgbackup soundconverter virtualbox cool-retro-term gparted"
 
 copy_of_files(){
 	echo -e "\033[1;32m==========Copies des fichiers utiles==========\033[0m"
@@ -64,7 +64,7 @@ install_app(){
 	echo ""
 	echo -e "\033[1;32mInstallation de logiciels\033[0m"
 	echo ""
-	apt install -y $app_to_install
+	apt install -y $ADDAPP
 	echo ""
 }
 
