@@ -22,7 +22,7 @@ echo ""
 
 if zenity --question --title="Redémarrage" --text="Voulez-vous redémarrer le système maintenant ?"
 then
-        reboot
+        systemctl reboot
 else
         echo "Redémarrage annulé"
 fi
