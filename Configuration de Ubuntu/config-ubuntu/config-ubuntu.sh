@@ -2,7 +2,7 @@
 
 username=$(zenity --entry --title="Nom d'utilisateur" --text="Entrez votre nom d'utilisateur (en minuscule)")
 FLATPAKAPP="com.visualstudio.code org.gimp.GIMP org.flameshot.Flameshot org.keepassxc.KeePassXC org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter"
-ADDAPP="screen htop nmon glances neofetch screenfetch inxi nvtop ncdu cronie sl nyancat nwipe ecryptfs-utils nmap iftop traceroute telnet borgbackup soundconverter virtualbox cool-retro-term gparted"
+ADDAPP="screen htop nmon glances neofetch screenfetch inxi nvtop ncdu cronie sl nyancat nwipe ecryptfs-utils nmap iftop traceroute telnet borgbackup virtualbox cool-retro-term gparted"
 
 copy_of_files(){
 	echo -e "\033[1;32m==========Copies des fichiers utiles==========\033[0m"
@@ -19,6 +19,7 @@ alias fs="flatpak search"' >> /home/"$username"/.bashrc
 	fi
 	cd ./config-ubuntu/
 	cp -r ./wallpapers/ /home/"$username"/Images/
+	cp ./"Chemin d'accès" /home/"$username"/.local/share/nautilus/scripts/
 	cd ./dynamic-wallpapers/
 	cp -r ./Dynamic_Wallpapers/ /usr/share/backgrounds/
 	cp ./xml/* /usr/share/gnome-background-properties/

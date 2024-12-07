@@ -1,14 +1,14 @@
 
 
-/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
-
-VEUILLEZ NE PAS DÉBRANCHER LA CLÉ USB DURANT TOUT LE PROCESSUS (si sur clé USB)
+/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 
 VEUILLEZ AVOIR UNE CONNEXION STABLE ET ASSEZ RAPIDE (min. 2 Mo/s)
 
 LE SCRIPT PEUT ETRE LANCÉ PLUSIEURS FOIS
 
-/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
+VEUILLEZ VERIFIER QUE TOUS LES SCRIPTS .sh (4) ONT BIEN LA COCHE EXECUTABLE DANS LES PROPRIÉTÉS
+
+/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 
 
 
