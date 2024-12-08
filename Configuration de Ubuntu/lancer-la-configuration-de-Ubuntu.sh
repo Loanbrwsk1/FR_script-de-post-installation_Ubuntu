@@ -1,8 +1,4 @@
 echo ""
-echo -e "\033[1;32m==========Initialisation du mot de passe root==========\033[0m"
-echo ""
-sudo passwd root
-echo ""
 sudo ./config-ubuntu/config-ubuntu.sh
 echo ""
 

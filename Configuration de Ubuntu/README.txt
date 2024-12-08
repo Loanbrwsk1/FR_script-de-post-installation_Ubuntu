@@ -16,18 +16,6 @@ Lancer le programme :
     - Clic droit sur le fichier "lancer-la-configuration-de-Ubuntu.sh"
     - Appuyez sur "Exécuter comme programme
 
-Il vous sera demandé votre mot de passe, puis on vous demandera d'écrire un "Nouveau mot de passe". Ce mot de passe est pour le compte administrateur (root). Si vous ne voulez pas l'activez, n'écrivez rien et appuyez simplement sur Entrée 2 fois.
-
-
-
-Vous pouvez chiffrer le dossier personnel /!\ Pas sans risques : cela pourrait supprimer des données personnelles (si présentes dans votre dossier personnel) /!\ : il est impératif de vous connecter en root (administrateur). Pour ce faire : 
-	- fermer votre session et cliquer sur "Pas dans la liste ?"
-	- entrer root en nom d'utilisateur et le mot de passe que vous avez défini au début de la configuration 
-	- exécutez chiffrer-dossier-personnel.sh avec exécutez comme programme (clic droit). 
-	
-
-/\ Si vous ne vous souvenez plus de votre mot de passe root (administrateur), ou si vous ne l'avez pas défini, vous pouvez le réinitialiser avec la commande "sudo passwd root". /\
-
 
 
 Suite à la configuration, des alias seront disponibles. Un alias est une chaine de caractères qui va exécuter une commande longue pour gagner du temps. Voici ceux que vous pourrez utiliser : 
