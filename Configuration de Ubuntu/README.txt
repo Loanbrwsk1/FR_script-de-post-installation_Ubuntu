@@ -6,7 +6,7 @@ VEUILLEZ AVOIR UNE CONNEXION STABLE ET ASSEZ RAPIDE (min. 2 Mo/s)
 
 LE SCRIPT PEUT ETRE LANCÉ PLUSIEURS FOIS
 
-VEUILLEZ VERIFIER QUE TOUS LES SCRIPTS .sh (4) ONT BIEN LA COCHE EXECUTABLE DANS LES PROPRIÉTÉS
+VEUILLEZ VERIFIER QUE TOUS LES SCRIPTS .sh (3) ONT BIEN LA COCHE EXECUTABLE DANS LES PROPRIÉTÉS
 
 /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 
@@ -16,7 +16,7 @@ Lancer le programme :
     - Clic droit sur le fichier "lancer-la-configuration-de-Ubuntu.sh"
     - Appuyez sur "Exécuter comme programme
 
-Si vous voulez seulement éxécuter le script de customisation de GNOME, allez dans le dossier config-fedora et éxécutez le fichier gnome-customization.sh 
+Si vous voulez seulement éxécuter le script de customisation de GNOME, allez dans le dossier config-ubuntu et éxécutez le fichier gnome-customization.sh 
 
 
 Suite à la configuration, des alias seront disponibles. Un alias est une chaine de caractères qui va exécuter une commande longue pour gagner du temps. Voici ceux que vous pourrez utiliser : 
