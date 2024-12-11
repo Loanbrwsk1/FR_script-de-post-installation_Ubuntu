@@ -29,7 +29,11 @@ alias fs="flatpak search"' >> /home/"$username"/.bashrc
 }
 
 maj(){
-	echo -e "\033[1;32m==========Mises à Jour du système==========\033[0m"
+	echo -e "\033[1;32m==========Mises à Jour==========\033[0m"
+    echo ""
+	echo -e "\033[1;32mMise à jour de flatpak\033[0m"
+	echo ""
+	flatpak update -y
 	echo ""
 	echo -e "\033[1;32mMise à jour du système\033[0m"
 	echo ""
@@ -38,21 +42,6 @@ maj(){
 	apt full-upgrade -y
 	echo ""
 	apt autoremove -y
-	echo ""
-}
-
-flatpak_install(){
-        echo -e "\033[1;32m==========Installation de Flatpak==========\033[0m"
-        echo ""
-        apt install -y flatpak
-        echo ""
-        apt install -y gnome-software-plugin-flatpak
-        echo ""
-	flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-	echo ""
-	echo -e "\033[1;32mMise à jour de flatpak\033[0m"
-	echo ""
-	flatpak update -y
 	echo ""
 }
 
