@@ -6,7 +6,7 @@ ADDAPP="screen htop nmon glances neofetch screenfetch inxi nvtop ncdu cronie sl 
 
 copy_of_files(){
 	echo -e "\033[1;32m==========Copies des fichiers utiles==========\033[0m"
-	if [[ $(grep -c "fmaj=" /home/loan/.bashrc) -lt 1 ]] ; then
+	if [[ $(grep -c "fmaj=" /home/"$username"/.bashrc) -lt 1 ]] ; then
 		echo '
 
 alias maj="sudo apt update  && sudo apt full-upgrade -y"
@@ -18,13 +18,16 @@ alias fmaj="flatpak update -y"
 alias fs="flatpak search"' >> /home/"$username"/.bashrc
 	fi
 	cd ./config-ubuntu/
-	cp -r ./wallpapers/ /home/"$username"/Images/
 	cp ./"Chemin d'accès" /home/"$username"/.local/share/nautilus/scripts/
-	cd ./dynamic-wallpapers/
-	cp -r ./Dynamic_Wallpapers/ /usr/share/backgrounds/
-	cp ./xml/* /usr/share/gnome-background-properties/
-	cp -r ./Screenshots_dynamic_wallpapers/ /home/"$username"/Images/
-	chown -R "$username":"$username" /home/"$username"/Images/wallpapers/
+    if zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?"
+    then
+        cp -r ./wallpapers/ /home/"$username"/Images/
+        cd ./dynamic-wallpapers/
+        cp -r ./Dynamic_Wallpapers/ /usr/share/backgrounds/
+        cp ./xml/* /usr/share/gnome-background-properties/
+        cp -r ./Screenshots_dynamic_wallpapers/ /home/"$username"/Images/
+        chown -R "$username":"$username" /home/"$username"/Images/wallpapers/
+    fi
 	echo ""
 }
 
