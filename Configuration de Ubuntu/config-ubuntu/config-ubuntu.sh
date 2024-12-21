@@ -1,8 +1,8 @@
 #!/bin/bash
 
 username=$(zenity --entry --title="Nom d'utilisateur" --text="Entrez votre nom d'utilisateur (en minuscule)")
-FLATPAKAPP="com.visualstudio.code org.gimp.GIMP org.flameshot.Flameshot org.keepassxc.KeePassXC org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter io.github.flattool.Warehouse com.github.tchx84.Flatseal"
-ADDAPP="screen htop nmon glances neofetch screenfetch inxi nvtop ncdu cronie sl nyancat nwipe ecryptfs-utils nmap iftop traceroute telnet borgbackup virtualbox cool-retro-term gparted"
+FLATPAKAPP="org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter com.mattjakeman.ExtensionManager org.gnome.Extensions io.github.flattool.Warehouse com.github.tchx84.Flatseal"
+ADDAPP="aspell-fr amd-ucode-firmware gnome-tweaks file-roller dconf-editor gnome-boxes shellcheck htop neofetch screenfetch fastfetch inxi nfs-utils sl nyancat ecryptfs-utils virtualbox cool-retro-term gparted"
 
 copy_of_files(){
 	echo -e "\033[1;32m==========Copies des fichiers utiles==========\033[0m"

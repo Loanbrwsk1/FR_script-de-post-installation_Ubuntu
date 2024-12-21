@@ -3,42 +3,34 @@ Script qui va installer certains logiciels, rajouter quelques fichiers tels que 
 
 ## Applis installées
 
-### Flatpaks (Dépôts Flathub)
+- aspell-fr 
+- amd-ucode-firmware 
+- gnome-tweaks 
+- file-roller 
+- dconf-editor 
+- gnome-boxes 
+- ShellCheck 
+- htop 
+- neofetch 
+- screenfetch 
+- fastfetch 
+- inxi 
+- nfs-utils 
+- sl 
+- nyancat 
+- ecryptfs-utils 
+- cool-retro-term 
+- gparted 
 
-- VSCode
-- Gimp 
-- Flameshot 
-- KeePassXC 
+#### Flatpak (Dépôt Flathub)
+
 - VLC 
 - SongRec 
 - SoundConverter 
+- ExtensionManager 
+- Extensions 
 - Warehouse
 - Flatseal
-
-### Applications
-
-- screen 
-- htop 
-- nmon 
-- glances 
-- neofetch, screenfetch 
-- inxi 
-- nvtop 
-- ncdu 
-- sl 
-- nyancat 
-- nwipe 
-- ecryptfs-utils 
-- netcat 
-- nmap 
-- iftop 
-- traceroute 
-- telnet 
-- borgbackup 
-- soundconverter 
-- virtualbox 
-- cool-retro-term 
-- gparted
 
 ## Autres
 
