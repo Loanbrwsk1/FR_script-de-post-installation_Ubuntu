@@ -1,7 +1,7 @@
 #!/bin/bash
 
 username=$(zenity --entry --title="Nom d'utilisateur" --text="Entrez votre nom d'utilisateur (en minuscule)")
-FLATPAKAPP="com.visualstudio.code org.gimp.GIMP org.flameshot.Flameshot org.keepassxc.KeePassXC org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter"
+FLATPAKAPP="com.visualstudio.code org.gimp.GIMP org.flameshot.Flameshot org.keepassxc.KeePassXC org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter io.github.flattool.Warehouse com.github.tchx84.Flatseal"
 ADDAPP="screen htop nmon glances neofetch screenfetch inxi nvtop ncdu cronie sl nyancat nwipe ecryptfs-utils nmap iftop traceroute telnet borgbackup virtualbox cool-retro-term gparted"
 
 copy_of_files(){

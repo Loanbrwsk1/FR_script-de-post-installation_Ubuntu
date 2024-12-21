@@ -13,6 +13,7 @@ Script qui va installer certains logiciels, rajouter quelques fichiers tels que 
 - SongRec 
 - SoundConverter 
 - Warehouse
+- Flatseal
 
 ### Applications
 
