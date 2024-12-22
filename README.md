@@ -21,6 +21,7 @@ Script qui va installer certains logiciels, rajouter quelques fichiers tels que 
 - ecryptfs-utils 
 - cool-retro-term 
 - gparted 
+- git
 
 #### Flatpak (Dépôt Flathub)
 

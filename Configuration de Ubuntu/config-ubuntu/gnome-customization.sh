@@ -1,5 +1,30 @@
 #!/bin/bash
 
+wallpaper = $(zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?")
+dynamic_wallpapers = $(zenity --question --title="Fonds d'écran dynamiques" --text="Voulez-vous des fonds d'écran dynamiques supplémentaires ?")
+
+if wallpaper
+then
+    git clone https://github.com/Loanbrwsk1/Wallpapers.git 
+    rm -fr ./Wallpapers/.git/
+    mv ./Wallpapers/ ~/Images/
+    chown -R "$username":"$username" ~/Images/Wallpapers/
+fi
+
+if dynamic_wallpapers
+then
+    git clone https://github.com/Loanbrwsk1/Dynamic-wallpapers.git
+    cd ./Dynamic-wallpapers/
+    mv ./Dynamic_Wallpapers/ /usr/share/backgrounds/
+    mv ./xml/* /usr/share/gnome-background-properties/
+    mv ./Screenshots_dynamic_wallpapers/ ~/Images/
+    mv ./CREDITS.txt ~/Images/
+    cd ..
+    rm -rf ./Dynamic-wallpapers/
+    chown -R "$username":"$username" ~/Images/Screenshots_dynamic_wallpapers/
+    chown "$username":"$username" ~/Images/CREDITS.txt
+fi
+
 echo "Configuration générale de GNOME"
 echo " - Suramplification"
 gsettings set org.gnome.desktop.sound allow-volume-above-100-percent true
