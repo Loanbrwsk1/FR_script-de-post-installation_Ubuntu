@@ -1,16 +1,13 @@
 #!/bin/bash
 
-wallpaper=$(zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?")
-dynamic_wallpapers=$(zenity --question --title="Fonds d'écran dynamiques" --text="Voulez-vous des fonds d'écran dynamiques supplémentaires ?")
-
-if $wallpaper
+if zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?"
 then
     git clone https://github.com/Loanbrwsk1/Wallpapers.git 
     rm -fr ./Wallpapers/.git/
     mv ./Wallpapers/ ~/Images/
 fi
 
-if $dynamic_wallpapers
+if zenity --question --title="Fonds d'écran dynamiques" --text="Voulez-vous des fonds d'écran dynamiques supplémentaires ?"
 then
     git clone https://github.com/Loanbrwsk1/Dynamic-wallpapers.git
     cd ./Dynamic-wallpapers/
@@ -38,7 +35,7 @@ cd ./config-ubuntu/
 cp ./"Chemin d'accès" ~/.local/share/nautilus/scripts/
 echo ""
 
-echo "\033[1;32m==========Configuration générale de GNOME==========\033[0m"
+echo -e "\033[1;32m==========Configuration générale de GNOME==========\033[0m"
 echo " - Suramplification"
 gsettings set org.gnome.desktop.sound allow-volume-above-100-percent true
 echo " - Modification du format de la date et heure"
