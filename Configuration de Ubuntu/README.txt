@@ -6,8 +6,6 @@ VEUILLEZ AVOIR UNE CONNEXION STABLE ET ASSEZ RAPIDE (min. 2 Mo/s)
 
 LE SCRIPT PEUT ETRE LANCÉ PLUSIEURS FOIS
 
-VEUILLEZ VERIFIER QUE TOUS LES SCRIPTS .sh (3) ONT BIEN LA COCHE EXECUTABLE DANS LES PROPRIÉTÉS
-
 /!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\/!\
 
 
@@ -49,7 +47,7 @@ Suite à la configuration, des alias seront disponibles. Un alias est une chaine
 
 
 Pour les fonds d'écrans, un dossier wallpapers à été crée dans ~/Images/
-Dans ce même dossier, vous allez trouver un dossier screenshots_dynamic_wallpapers qui contient les présentations des fonds d'écrans au fil de la journée.
+Dans ce même dossier, vous allez trouver un dossier screenshots_dynamic_wallpapers qui contient les aperçus des fonds d'écrans dynamiques.
 
 Vous pouvez choisir un fond d'écran dynamique :
     - clic droit sur le bureau
