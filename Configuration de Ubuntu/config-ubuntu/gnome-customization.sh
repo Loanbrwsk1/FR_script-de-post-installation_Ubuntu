@@ -1,16 +1,16 @@
 #!/bin/bash
 
-wallpaper = $(zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?")
-dynamic_wallpapers = $(zenity --question --title="Fonds d'écran dynamiques" --text="Voulez-vous des fonds d'écran dynamiques supplémentaires ?")
+wallpaper=$(zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?")
+dynamic_wallpapers=$(zenity --question --title="Fonds d'écran dynamiques" --text="Voulez-vous des fonds d'écran dynamiques supplémentaires ?")
 
-if wallpaper
+if $wallpaper
 then
     git clone https://github.com/Loanbrwsk1/Wallpapers.git 
     rm -fr ./Wallpapers/.git/
     mv ./Wallpapers/ ~/Images/
 fi
 
-if dynamic_wallpapers
+if $dynamic_wallpapers
 then
     git clone https://github.com/Loanbrwsk1/Dynamic-wallpapers.git
     cd ./Dynamic-wallpapers/

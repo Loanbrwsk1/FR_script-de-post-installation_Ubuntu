@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FLATPAKAPP="org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter com.mattjakeman.ExtensionManager org.gnome.Extensions io.github.flattool.Warehouse com.github.tchx84.Flatseal"
-ADDAPP="aspell-fr amd-ucode-firmware gnome-tweaks file-roller dconf-editor gnome-boxes shellcheck htop neofetch screenfetch fastfetch inxi nfs-utils sl nyancat ecryptfs-utils virtualbox cool-retro-term gparted git"
+ADDAPP="git aspell-fr gnome-tweaks file-roller dconf-editor gnome-boxes shellcheck htop neofetch screenfetch inxi sl nyancat ecryptfs-utils virtualbox cool-retro-term gparted"
 
 maj(){
 	echo -e "\033[1;32m==========Mises à Jour==========\033[0m"
