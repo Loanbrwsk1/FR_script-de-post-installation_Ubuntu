@@ -32,7 +32,6 @@ Script qui va installer certains logiciels, rajouter quelques fichiers tels que 
 - Extensions 
 - Warehouse
 - Flatseal
-- Bouteilles
 
 ## Autres
 
