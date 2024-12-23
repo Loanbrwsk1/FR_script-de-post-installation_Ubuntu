@@ -1,13 +1,18 @@
 #!/bin/bash
 
-if zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?"
+zenity --question --title="Fonds d'écran" --text="Voulez-vous des fonds d'écran supplémentaires ?"
+wallpaper=$?
+zenity --question --title="Fonds d'écran dynamiques" --text="Voulez-vous des fonds d'écran dynamiques supplémentaires ?"
+dynamic_wallpaper=$?
+
+if [ $wallpaper -eq 0 ]
 then
     git clone https://github.com/Loanbrwsk1/Wallpapers.git 
     rm -fr ./Wallpapers/.git/
     mv ./Wallpapers/ ~/Images/
 fi
 
-if zenity --question --title="Fonds d'écran dynamiques" --text="Voulez-vous des fonds d'écran dynamiques supplémentaires ?"
+if [ $dynamic_wallpaper -eq 0 ]
 then
     git clone https://github.com/Loanbrwsk1/Dynamic-wallpapers.git
     cd ./Dynamic-wallpapers/
@@ -17,7 +22,6 @@ then
     cd ..
     rm -rf ./Dynamic-wallpapers/
 fi
-
 echo -e "\033[1;32m==========Copies des fichiers utiles==========\033[0m"
 if [[ $(grep -c "fmaj=" ~/.bashrc) -lt 1 ]] ; then
     echo '
