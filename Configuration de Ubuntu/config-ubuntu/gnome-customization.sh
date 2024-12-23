@@ -14,7 +14,6 @@ then
     sudo mv ./Dynamic_Wallpapers/ /usr/share/backgrounds/
     sudo mv ./xml/* /usr/share/gnome-background-properties/
     mv ./Screenshots_dynamic_wallpapers/ ~/Images/
-    mv ./CREDITS.txt ~/Images/
     cd ..
     rm -rf ./Dynamic-wallpapers/
 fi
