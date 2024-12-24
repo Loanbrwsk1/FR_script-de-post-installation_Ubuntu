@@ -28,8 +28,7 @@ Script qui va installer certains logiciels, rajouter quelques fichiers tels que 
 - VLC 
 - SongRec 
 - SoundConverter 
-- ExtensionManager 
-- Extensions 
+- ExtensionManager
 - Warehouse
 - Flatseal
 

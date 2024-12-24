@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FLATPAKAPP="org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter com.mattjakeman.ExtensionManager org.gnome.Extensions io.github.flattool.Warehouse com.github.tchx84.Flatseal"
+FLATPAKAPP="org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter com.mattjakeman.ExtensionManager io.github.flattool.Warehouse com.github.tchx84.Flatseal"
 ADDAPP="git aspell-fr gnome-tweaks file-roller dconf-editor gnome-boxes shellcheck htop neofetch screenfetch inxi sl nyancat ecryptfs-utils virtualbox cool-retro-term gparted"
 
 maj(){
